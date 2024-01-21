@@ -1,0 +1,205 @@
+*{
+    Padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif
+    text-decoration: none;
+    }
+
+    body{
+        background-color: rgb(70, 68, 68);
+    }
+    
+    
+    header {
+    background-color: gray;
+    top: 0;
+    left: 0;
+    right: 0;
+    }
+    header nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:80%;
+        margin: auto;
+        height: 80px;
+    
+    }
+
+    header nav .logo{
+        color: purple;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    header nav .links{
+        display: flex;
+    }
+
+    header nav .links li{
+        position: relative;
+        margin: 0 25px;
+        height:80px;
+        line-height: 80px;
+        list-style: none;
+    }
+    
+    header nav .links li a{
+        color: purple;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: 600;
+        padding-left: 30px;
+    }
+    header  nav .links li a:hover{
+        color: black;
+    }
+    
+    header nav .social-links a i{
+        color:purple;
+        font-size: 24px;
+        margin-left: 15px;
+
+    }
+    header nav .social-links a i:hover{
+        color: black;
+    }
+    
+
+
+
+
+    .hero-sec{
+        height: 100vh;
+        background-size: cover;
+        background-position: top;
+    }
+    .hero-sec .container {
+        width: 85%;
+        margin: auto;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        height: 100%;
+    }
+    
+    
+    .hero-sec.container .div-text h1{
+        color:black;
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+    .hero-sec .container .div-text span{
+        font-weight: bolder;
+        font-size: 40px;
+        color: rgb(82, 9, 82);
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    
+    }
+    .hero-sec .container .div-text p{
+        color: black;
+        font-size: medium;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    
+    
+    
+    .hero-sec .container .div-img{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        width: 45%;
+        position: absolute;
+        right: 5%;
+        left:%
+    
+    }
+    .hero-sec .container .div-img img{
+        width: 500px;
+        height: 400px;
+    }   
+    .hero-sec .container .btn{
+        color: rgb(82, 9, 82);
+        background-color: black;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        display: inline block;
+        padding: 5px;
+        letter-spacing: 1px;
+        border-radius: 10px;
+        margin-bottom: 60px;
+    }
+    
+    .hero-sec .container .btn:hover {
+        background-color: rgb(190, 169, 169);
+    }
+    .hero-sec .container .social-icons a{
+        margin-top: 20px;
+        color: white;
+        font-size: 20px;
+        padding-top: 100px;
+        padding-right:20px
+    
+    
+    }
+    .title1{
+        display: flex;
+        justify-content: center;
+        color:rgb(82, 9, 82);
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .title2{
+        display: flex;
+        justify-content: center;
+        color:black;
+        font-weight: bolder;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .title3{
+        display: flex;
+        justify-content: center;
+        color: black;
+    }
+    .flex-container{
+        width:100%;
+        height:auto;
+        display: flex;
+        margin-left: 326px;
+    }
+    .flex-box{
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(purple,black);
+        color:black;
+        font-size: 25px;
+        text-align: center;
+        line-height: 200px;
+        border-radius: 15px;
+        margin: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:center;
+        box-shadow: 10px 20px 3px;
+    }
+    .footer{
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        color: purple;
+    }
+    .cardContact{
+margin-left: 556px;
+    }
